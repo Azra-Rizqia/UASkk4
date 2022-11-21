@@ -1,0 +1,75 @@
+* {
+    top: 0;
+	right: 0;
+    margin: 0;
+    box-sizing: border-box;
+	font-family: Poppins;
+	text-decoration: none;
+	list-style: none;
+}
+.hero {
+    background-image: url("../ASET/Landscape-bg.jpg");
+    background-size: cover;
+    height: 300px;
+}
+.prof {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    border: 6px solid #FFFFFF;
+    margin-top: -120px;
+    margin-left: 30px;
+}
+.head-sos {
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    margin-left: 30px;
+    align-items: center;
+}
+.sos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #9DA6D7;
+    font-size: 20px;
+}
+.creator {
+    margin-left: 30px;
+}
+.items-date {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.desc {
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.cards {
+    border-radius: 15px;
+    box-shadow: 0px 2px 12px rgba(109, 109, 109, 0.25);
+    transition: 0.3s;
+}
+.items img {
+    border-radius: 15px 15px 0px 0px;
+    width: 280px;
+    height: 280px;
+}
+.img-txt {
+    padding: 10px;
+}
+.img-txt p {
+    font-size: 14px;
+}
