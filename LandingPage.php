@@ -20,13 +20,12 @@
 <body>
    <!-- navbar -->
    <header>
-      <h1>NFT</h1>
+      <h1>NFT.</h1>
       <nav>
       <ul class="navbar">
-         <li><a href="#">Explore</a></li>
-         <li><a href="#">Category</a></li>
-         <li><a href="#">Community</a></li>
-         <li><a href="#">Created</a></li>
+         <li><a href="userpage.php">Explore</a></li>
+         <li><a href="#category">Category</a></li>
+         <li><a href="#community">Community</a></li>
       </ul>
       </nav>
       <div class="main">
@@ -39,10 +38,10 @@
       <div class="hello">
          <div class="text">
             <div class="txt">
-               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+               <h1>Discover Digital Artworks and Collect Amazing NFTs</h1>
+               <p>Show your unique taste to the world and collect NFT from the best artists.</p>
                </div>
-               <button class="btnstart col-md-4">Get Started</button>
+               <a href="login.php"><button class="btnstart col-md-4">Get Started</button></a>
             </div>
             <div class="img">
                <img src="ASET/pict1.png" alt="" >
@@ -53,14 +52,14 @@
    
    <!--crolling Horizontal (1) -->
    <div class="container1">
-      <i class="fa-solid fa-angle-left"></i>
+      <i id="left" class="fa-solid fa-angle-left"></i>
       <div class="card">
-         <a href="detail.php">
+         <a href="detailMoas.php">
             <div class="cards">
                 <img src="ASET/prom1.png" alt="">
                 <div class="img-txt">
-                    <h3>Solar System</h3>
-                    <h5>Price : 2.1 ETH</h5>
+                    <h3>MOAS</h3>
+                    <h5>Floor : 8.11 XTZ</h5>
                 </div>
             </div>
          </a>
@@ -68,46 +67,46 @@
             <img src="ASET/prom2.png" alt="">
             <div class="img-txt">
                <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h5>Floor : 11.01 XTZ</h5>
             </div>
          </div>
          <div class="cards">
             <img src="ASET/prom3.png" alt="">
             <div class="img-txt">
                <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h5>Floor : 8.48 XTZ</h5>
             </div>
          </div>
          <div class="cards">
             <img src="ASET/prom4.png" alt="">
             <div class="img-txt">
                <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h5>Floor : 7.4 XTZ</h5>
             </div>
          </div>
          <div class="cards">
-            <img src="ASET/prom1.png" alt="">
+            <img src="ASET/prom5.jpg" alt="">
             <div class="img-txt">
-               <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h3>DodoLEE</h3>
+               <h5>Floor : 10 XTZ</h5>
             </div>
          </div>
          <div class="cards">
-            <img src="ASET/prom2.png" alt="">
+            <img src="ASET/prom6.png" alt="">
             <div class="img-txt">
-               <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h3>Fantastic</h3>
+               <h5>Floor : 9.8 XTZ</h5>
             </div>
          </div>
          <div class="cards">
-            <img src="ASET/prom3.png" alt="">
+            <img src="ASET/prom7.png" alt="">
             <div class="img-txt">
-               <h3>Solar System</h3>
-               <h5>Price : 2.1 ETH</h5>
+               <h3>PuduPudu</h3>
+               <h5>Floor : 6.1 XTZ</h5>
             </div>
          </div>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
+      <i id="right" class="fa-solid fa-angle-right"></i>
    </div>
    <!--akhir scrolling Horizontal (1) -->
    <!-- Trend Page -->
@@ -119,44 +118,46 @@
                     <h4>Collection</h4>
                     <h4>Volume</h4>
                 </div>
-                <div class="urutan1">
-                    <h2 class="no">1</h2>
-                    <img class="imgurutan" src="ASET/no1.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                <a href="detailTeddy.php">
+                    <div class="urutan1">
+                        <h2 class="no">1</h2>
+                        <img class="imgurutan" src="ASET/no1.png" alt="">
+                        <div class="volum">
+                            <h4>Teddy Teddy</h4>
+                            <h4>999 XTZ</h4>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="urutan">
                     <h2 class="no">2</h2>
                     <img class="imgurutan" src="ASET/no2.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <div class="volum2">
+                        <h4>Peachy</h4>
+                        <h4>987 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">3</h2>
                     <img class="imgurutan" src="ASET/no3.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <div class="volum3">
+                        <h4>CloneX</h4>
+                        <h4>954 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">4</h2>
                     <img class="imgurutan" src="ASET/no4.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <div class="volum4">
+                        <h4>Interfaces</h4>
+                        <h4>918 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">5</h2>
                     <img class="imgurutan" src="ASET/no5.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <div class="volum5">
+                        <h4>OMG Man</h4>
+                        <h4>898 XTZ</h4>
                     </div>
                 </div>
             </div>
@@ -167,86 +168,92 @@
                 </div>
                 <div class="urutan">
                     <h2 class="no">6</h2>
-                    <img class="imgurutan" src="ASET/no1.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <img class="imgurutan" src="ASET/no6.jpg" alt="">
+                    <div class="volum6">
+                        <h4>Yummy</h4>
+                        <h4>864 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">7</h2>
-                    <img class="imgurutan" src="ASET/no2.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <img class="imgurutan" src="ASET/prom5.jpg" alt="">
+                    <div class="volum7">
+                        <h4>DodoLEE</h4>
+                        <h4>850 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">8</h2>
-                    <img class="imgurutan" src="ASET/no3.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <img class="imgurutan" src="ASET/no8.jpg" alt="">
+                    <div class="volum8">
+                        <h4>GLITCH3</h4>
+                        <h4>827 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan">
                     <h2 class="no">9</h2>
-                    <img class="imgurutan" src="ASET/no4.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <img class="imgurutan" src="ASET/no9.jpg" alt="">
+                    <div class="volum9">
+                        <h4>Yuki</h4>
+                        <h4>810 XTZ</h4>
                     </div>
                 </div>
                 <div class="urutan10">
                     <h2 class="no">10</h2>
-                    <img class="imgurutan" src="ASET/no5.png" alt="">
-                    <div class="volum">
-                        <h4>Teddy Teddy</h4>
-                        <h4>120 ETH</h4>
+                    <img class="imgurutan" src="ASET/no10.png" alt="">
+                    <div class="volum10">
+                        <h4>XsuLLo</h4>
+                        <h4>799 XTZ</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <!-- akhir Trend Page -->
-    <div class="category">
+
+    <!-- Awal Category -->
+    <div id="category" class="category">
         <h2>Category</h2>
         <div class="row-c">
             <div class="cardz">
-                <img src="ASET/Landscape-Photo.jpg" alt="card image">
-                <article class="conten">
-                    <h3>Photography</h3>
-                </article>
+                <a href="CategoryPhoto.php">
+                    <img src="ASET/Landscape-Photo.jpg" alt="card image">
+                    <article class="conten">
+                        <h3>Photography</h3>
+                    </article>
+                </a>
             </div>
             <div class="cardz">
-                <img src="ASET/Landscape-Art.jpg" alt="card image">
-                <article class="conten">
-                    <h3>Art</h3>
-                </article>
+                <a href="CategoryArt.php">
+                    <img src="ASET/Landscape-Art.jpg" alt="card image">
+                    <article class="conten">
+                        <h3>Art</h3>
+                    </article>
+                </a>
             </div>
             <div class="cardz">
-                <img src="ASET/Landscape-Music.jpg" alt="card image">
-                <article class="conten">
-                    <h3>Music</h3>
-                </article>
+                <a href="CategoryMusic.php">
+                    <img src="ASET/Landscape-Music.jpg" alt="card image">
+                    <article class="conten">
+                        <h3>Music</h3>
+                    </article>
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="community">
+    <div id="community" class="community">
         <h2>Join Community</h2>
         <div class="sm">
-            <i class="fa-brands fa-discord"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-reddit-alien"></i>
+            <a href="https://discord.gg/dNrsKXUV"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.instagram.com/_rizqiaz/?hl=id"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/rarrwwr"><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-reddit-alien"></i></a>
         </div>
     </div>
     <div class="footer">
         <div class="company">
-            <h1>NFT</h1>
+            <h1>NFT.</h1>
             <p>
                 The digital marketplace for crypto
                 collectibles and non-fungible tokens (NFTs), 
@@ -255,33 +262,17 @@
         </div>
         <div class="link-nav">
             <h3>Service</h3>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Category</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Created</a></li>
+            <li><a href="userpage.php">Explore</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="login.php">Created</a></li>
         </div>
         <div class="forms">
             <h3>Stay With US.</h3>
             <form action="">
                 <input type="email" class="input-field" id="email" placeholder="Email" required/>
-                <button id="myBtn">Submit</button>
+                <button id="myBtn" onclick="myFunction()">Submit</button>
             </form>
-        </div>
-    </div>
-    <div id="myModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h2>Modal Header</h2>
-            </div>
-            <div class="modal-body">
-                <p>Some text in the Modal Body</p>
-                <p>Some other text...</p>
-            </div>
-            <div class="modal-footer">
-                <h3>Modal Footer</h3>
-            </div>
         </div>
     </div>
     <script type="text/javascript" src="JS/script.js"></script>

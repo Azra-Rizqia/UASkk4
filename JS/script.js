@@ -8,8 +8,26 @@ menu.onclick = () => {
 
 // scoll horizon
 const card = document.querySelector(".card");
+firstCards = card.querySelectorAll(".cards")[0];
+arrowIcons = document.querySelectorAll(".container1 i");
+
 
 let isDragStart = false, prevPageX, prevScrollLeft;
+let firstCardsWidth = firstCards.clientWidth + 14;
+let scrollWidth = card.scrollWidth - card.clientWidth;
+
+const showHideIcons = () => {
+	arrowIcons[0].style.display = card.scrollLeft == 0 ? "none" : "block";
+	arrowIcons[1].style.display = card.scrollLeft == scrollWidth ? "none" : "block";
+
+}
+
+arrowIcons.forEach(icon => {
+	icon.addEventListener("click", () => {
+		card.scrollLeft += icon.id == "left" ? -firstCardsWidth : firstCardsWidth;
+		setTimeout(() => showHideIcons(), 60);
+	});
+});
 
 const dragStart = () => {
 	//mouse down event
@@ -22,40 +40,21 @@ const dragging = (e) => {
 	// mouse pointer
 	if(!isDragStart) return;
 	e.preventDefault();
+	card.classList.add("dragging");
 	let positionDiff = e.pageX - prevPageX;
 	card.scrollLeft = prevScrollLeft - positionDiff;
 }
 
 const dragStop = () => {
 	isDragStart = false;
+	card.classList.remove("dragging");
 }
 
 card.addEventListener("mousedown", dragStart);
 card.addEventListener("mousemove", dragging);
 card.addEventListener("mouseup", dragStop);
 
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+// button email alert
+function myFunction() {
+	alert("Thank You For Your Enthusiasm!");
   }
-}

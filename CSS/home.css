@@ -14,6 +14,7 @@ body{
 	font-family: Poppins;
 	text-decoration: none;
 	list-style: none;
+    scroll-behavior: smooth;
 }
 img{
     width: 100%;
@@ -24,7 +25,7 @@ img{
 header{
 	position: fixed;
 	width: 100%;
-	height: 95px;
+	height: 80px;
 	top: 0;
 	right: 0;
 	z-index: 1000;
@@ -139,6 +140,7 @@ button:hover {
         right: 2%;
     }
 }
+
 /*container*/
 .container{
     display: flex;
@@ -200,6 +202,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    scroll-behavior: smooth;
 }
 .container1 i{
     top: 100%;
@@ -244,7 +247,7 @@ button:hover {
 .cards img:first-child{
     margin-left: 0px;
 }
-.card .img-txt {
+.cards .img-txt {
 	text-align: left;
 	border-radius: 0px 0px 40px 40px;
 	margin-left: 10px;
@@ -330,32 +333,35 @@ button:hover {
     overflow: hidden;
 }
 
-/* Ctegory */
-/* .category {
-    
+
+/* gap volume */
+.volum2, .volum3 {
+	display: flex;
+	flex-direction: row;
+	gap: 240px;
 }
-.row-c {
+.volum4, .volum5 {
+	display: flex;
+	flex-direction: row;
+	gap: 220px;
+}
+.volum6 {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+	flex-direction: row;
+	gap: 210px;
 }
-.cardz img{
-    width: 180px;
-    height: 100px;
-} */
-/* community */
-/* .community {
-    margin-top: 60px;
-    padding: 0 4%;
+.volum7, .volum8 {
+	display: flex;
+	flex-direction: row;
+	gap: 208px;
 }
-.sm i {
-    height: 60px;
-    width: 60px;
-    font-size: 2rem;
-    padding-top: 50px;
-    text-align: center;
-    border-radius: 40%;
-    color: #fff;
-    background-color: #9DA6D7;
-    margin-left: 20px;
-} */
+.volum9 {
+    display: flex;
+	flex-direction: row;
+	gap: 242px;
+}
+.volum10 {
+    display: flex;
+	flex-direction: row;
+	gap: 217px;
+}

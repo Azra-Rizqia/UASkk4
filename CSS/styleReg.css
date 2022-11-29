@@ -27,7 +27,7 @@
 }
 
 .container .content h3 span {
-  background: #9da6d7;
+  background: #f6f6f6;
   color: #fff;
   border-radius: 5px;
   padding: 0 15px;
@@ -104,7 +104,7 @@
 
 .form-container form .form-btn {
   background: #767da6;
-  color: #9da6d7;
+  color: #e8e8e8;
   text-transform: capitalize;
   font-size: 20px;
   cursor: pointer;
